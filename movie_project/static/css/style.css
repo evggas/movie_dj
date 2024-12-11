@@ -1,0 +1,68 @@
+/* Фон страницы */
+body {
+    background-color: #e9ecef; /* Светлый фон */
+    font-family: Arial, sans-serif;
+}
+
+/* Общие стили для контейнера формы */
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовок формы */
+.form-title {
+    color: #007bff; /* Голубой цвет */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Кнопки */
+.btn-primary, .btn-secondary {
+    background-color: #007bff; /* Единый голубой цвет */
+    border-color: #007bff;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    background-color: #0056b3; /* Более тёмный оттенок */
+    border-color: #0056b3;
+}
+
+/* Таблица для списка фильмов */
+.table {
+    margin-top: 20px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.table th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+.table td {
+    text-align: center;
+}
+
+/* Ссылки */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Для небольшого текста */
+.text-center {
+    text-align: center;
+}
+
